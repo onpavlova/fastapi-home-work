@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+    {% for good in goods %}
+        <h2>{{ good.title }} </h2> <div style="color: darkmagenta">{{ good.new_super }}</div>
+        <p> <b style="color: aqua">Артикул:</b> {{ good.article }}</p>
+        <p> <b style="color: aqua">Вес:</b>{{ good.weight }}</p>
+        <p>Описание: {{ good.description }}</p>
+
+        <hr>
+    {% endfor %}
+{% endblock %}

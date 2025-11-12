@@ -2,12 +2,17 @@
 
 Инструкция
 Клонировать репозиторий
-
+HTTPS
+https://github.com/onpavlova/fastapi-home-work.git
+SSH
+git@github.com:onpavlova/fastapi-home-work.git
+GitHub CLI 
+gh repo clone onpavlova/fastapi-home-work
 
 Виртуальное окружение
 python3 -m venv .venv
 source .venv/bin/activate
-PS: Убедитесь, что ваша версия Python не ниже 3.6 При необходимости указывайте явно версию Python при создании окружения К примеру (для Python3.11)
+PS: Убедитесь, что ваша версия Python не ниже 3.6 При необходимости указывайте явно версию Python при создании окружения К примеру (для Python3.13)
 
 python3.13 -m venv .venv
 source .venv/bin/activate
@@ -22,7 +27,9 @@ pip3 install -r requirements.txt
 в браузере swagger
 http://localhost:8002/docs
 
-Описание функционала
+Описание функционала 
+
+Функционал выполнен по заданию:
 
 
 Домашнее задание "Веб-приложение на FastAPI"

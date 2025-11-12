@@ -1,13 +1,11 @@
 Веб-приложение на FastAPI
 
 Инструкция
+
 Клонировать репозиторий
-HTTPS
-https://github.com/onpavlova/fastapi-home-work.git
-SSH
-git@github.com:onpavlova/fastapi-home-work.git
-GitHub CLI 
-gh repo clone onpavlova/fastapi-home-work
+HTTPS        https://github.com/onpavlova/fastapi-home-work.git
+SSH          git@github.com:onpavlova/fastapi-home-work.git
+GitHub CLI   gh repo clone onpavlova/fastapi-home-work
 
 Виртуальное окружение
 python3 -m venv .venv
